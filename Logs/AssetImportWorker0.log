@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50593
+65177
 Successfully changed project path to: /Users/student/Documents/GitHub/Reaktion
 /Users/student/Documents/GitHub/Reaktion
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -55,7 +55,7 @@ Successfully changed project path to: /Users/student/Documents/GitHub/Reaktion
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 Platform WindowsStandaloneSupport does not support graphics device type 
-Refreshing native plugins compatible for Editor in 97.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -71,75 +71,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56257
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001197 seconds.
+Registered in 0.001590 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 94.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  1.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (939ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (1009ms)
+		BeginReloadAssembly (81ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (685ms)
-			LoadAssemblies (78ms)
+		EndReloadAssembly (737ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (390ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (420ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (66ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003708 seconds.
+Registered in 0.003690 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/Reaktion/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/Reaktion/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.466 seconds
+- Completed reload, in  1.561 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1467ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1562ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1141ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1215ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
+			SetupTypeCache (413ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (516ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (545ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (367ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -150,12 +150,12 @@ Worker process is ready to serve import requests
 Platform WindowsStandaloneSupport does not support graphics device type 
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (52.5 KB). Loaded Objects now: 3793.
-Memory consumption went from 216.2 MB to 216.2 MB.
-Total: 4.444054 ms (FindLiveObjects: 0.325512 ms CreateObjectMapping: 0.160916 ms MarkObjects: 3.840216 ms  DeleteObjects: 0.115813 ms)
+Unloading 27 unused Assets / (42.9 KB). Loaded Objects now: 3794.
+Memory consumption went from 216.4 MB to 216.4 MB.
+Total: 4.777290 ms (FindLiveObjects: 0.331926 ms CreateObjectMapping: 0.145520 ms MarkObjects: 4.177843 ms  DeleteObjects: 0.120589 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -169,130 +169,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3021867.757423 seconds.
-  path: Assets/Reaktion.unity
-  artifactKey: Guid(6cfc5133d9630400a9ae92aba1e8fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion.unity using Guid(6cfc5133d9630400a9ae92aba1e8fe87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4736d5d51fd94d0ad383dfdeae0f173') in 0.008993 seconds 
+  Time since last request: 326164.097515 seconds.
+  path: Assets/Reaktion/Gear/AnimatorGear.cs
+  artifactKey: Guid(9b7465771cea044f4bf201779c7cd3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reaktion/Gear/AnimatorGear.cs using Guid(9b7465771cea044f4bf201779c7cd3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3132743e5c91775f110af1dff74720bc') in 0.541081 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.109596 seconds.
-  path: Assets/Reaktion/Editor/Injector
-  artifactKey: Guid(0c13a49c912dc48889a08a62216f5211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Editor/Injector using Guid(0c13a49c912dc48889a08a62216f5211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2eddc9de8377d350c5342942dccc411') in 0.002789 seconds 
+  Time since last request: 193.084549 seconds.
+  path: Assets/Reaktion/Gear/SpawnerGear.cs
+  artifactKey: Guid(019c9b3121da7431cb5f32c6500d1fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reaktion/Gear/SpawnerGear.cs using Guid(019c9b3121da7431cb5f32c6500d1fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699a3d636ffb57f1f1f8c833b242a122') in 0.003631 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.062082 seconds.
-  path: Assets/Reaktion/Gear/CameraGear.cs
-  artifactKey: Guid(ee1b37565d4a24020a17e896ecd085d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Gear/CameraGear.cs using Guid(ee1b37565d4a24020a17e896ecd085d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc030d02f3e57a4808ee9eab127f6b') in 0.333475 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.347268 seconds.
-  path: Assets/Reaktion/Editor/Gear
-  artifactKey: Guid(e00c987684d4346238ef0268dd4dceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Editor/Gear using Guid(e00c987684d4346238ef0268dd4dceed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd72e7cca19ecc917b4e7a4ca55f9ed8') in 0.002734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.908384 seconds.
-  path: Assets/Reaktion/Editor/Internal
-  artifactKey: Guid(27f1469ed14244957b3a7cda3a754378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Editor/Internal using Guid(27f1469ed14244957b3a7cda3a754378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3718c410383e9a8f5413222afd69e1bd') in 0.002651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.535948 seconds.
-  path: Assets/Reaktion/Editor/Utility
-  artifactKey: Guid(1c8c8f5affaaa4616a15e69dda142154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Editor/Utility using Guid(1c8c8f5affaaa4616a15e69dda142154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310b350ca80e655b38ceb3e3cfaff150') in 0.002681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.121399 seconds.
-  path: Assets/Reaktion/Injector
-  artifactKey: Guid(77c818476d873455881c636b3d1fec5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Injector using Guid(77c818476d873455881c636b3d1fec5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8571f2130251285e249613bb398333d') in 0.002500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.276616 seconds.
-  path: Assets/Reaktion/Utility
-  artifactKey: Guid(4d874762c14cf4223bd1bcfc86500326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Utility using Guid(4d874762c14cf4223bd1bcfc86500326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae061c857fd852e980726be92a4f58c') in 0.002497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.611605 seconds.
-  path: Assets/Reaktion/Internal
-  artifactKey: Guid(326e33d18c9d64154b21ab0147da9239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Reaktion/Internal using Guid(326e33d18c9d64154b21ab0147da9239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4eaa7b2d947fdbbedc220af87728ec') in 0.002497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.398377 seconds.
-  path: Assets/MidiJack/Editor
-  artifactKey: Guid(743930d88f708423e94ff9cd4624df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MidiJack/Editor using Guid(743930d88f708423e94ff9cd4624df07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0bbb64ed4b63e2914bf8284575de2f') in 0.002541 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.515874 seconds.
-  path: Assets/MidiJack/Plugins
-  artifactKey: Guid(a12d947f6b75649c9bf11bcaadbf7c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MidiJack/Plugins using Guid(a12d947f6b75649c9bf11bcaadbf7c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2967a4fa4c806c04eaaae34939cc2a') in 0.002666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.705468 seconds.
-  path: Assets/ReaktionTest/Gears.unity
-  artifactKey: Guid(f49b91c19ca2a408abc990820f667d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ReaktionTest/Gears.unity using Guid(f49b91c19ca2a408abc990820f667d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b8fdda378889b4f6f33e9c66e8d4fa') in 0.002566 seconds 
-========================================================================
-Received Prepare
-Platform WindowsStandaloneSupport does not support graphics device type 
-Registering precompiled user dll's ...
-Registered in 0.003567 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/Reaktion/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/student/Documents/GitHub/Reaktion/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1366ms)
-		BeginReloadAssembly (171ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (70ms)
-		EndReloadAssembly (1043ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (453ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3330 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (22.0 KB). Loaded Objects now: 3796.
-Memory consumption went from 220.3 MB to 220.3 MB.
-Total: 3.695565 ms (FindLiveObjects: 0.284856 ms CreateObjectMapping: 0.139076 ms MarkObjects: 3.237746 ms  DeleteObjects: 0.032566 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.875339 seconds.
+  path: Assets/Reaktion/Editor/Utility/SpawnerEditor.cs
+  artifactKey: Guid(b37740868ec6041e0a2a0fbe4a15e69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Reaktion/Editor/Utility/SpawnerEditor.cs using Guid(b37740868ec6041e0a2a0fbe4a15e69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c0da5df2d4241afe61c6f02bb95a4e') in 0.003386 seconds 

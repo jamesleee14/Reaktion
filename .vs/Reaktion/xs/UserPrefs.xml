@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{EFE5068E-4B0C-DE57-AF0A-CF0C6A92D6D0}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c1040a19-e3e0-42e7-b3d7-24c2b6c1a770" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/PackageTool.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Reaktion/Gear/AnimatorGear.cs">
     <Files>
       <File FileName="Assets/Editor/PackageTool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Reaktion/Gear/AnimatorGear.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,6 +23,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="05df9e1b-1d77-4fd6-a5cb-8834aa212fb4" />
 </Properties>
